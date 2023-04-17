@@ -66,7 +66,7 @@ bool Cell::discover(std::vector<std::vector<Cell>> &grid, size_t x, size_t y)
 }
 bool Cell::has_neighbours()
 {
-    return neighbours >0;
+    return _neighbours >0;
 }
 bool Cell::is_flagged()
 {
